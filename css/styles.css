@@ -108,11 +108,12 @@ img {
 
 .washing-mode-info {
   position: relative;
+  box-shadow: 0 7px 10px  rgba(0, 0, 0, .5);
 }
 
 .washing-mode-controller {
-  width: 65px;
-  height: 65px;
+  width: 80px;
+  height: 80px;
   background-color: rgb(255, 255, 255, .4);
   outline: none;
   border: 0;
@@ -127,10 +128,10 @@ img {
     background-color: rgb(255, 255, 255, .8);
   }
   .washing-mode-controller-prev{
-    left: -65px;
+    left: -80px;
   }
   .washing-mode-controller-next{
-    right: -65px;
+    right: -80px;
   }
 .washing-mode-status {
   display: flex;
@@ -139,7 +140,7 @@ img {
 }
 
 .washing-mode-status-item {
-  width: 270px;
+  width: 255px;
   height: 270px;
   padding: 30px;
   display: flex;
@@ -166,6 +167,26 @@ img {
 .washing-mode-status-value {
   margin-left: 0;
   font-size: 35px;
+}
+
+.start-btn{
+  position: absolute;
+  left: 9px;
+  bottom: 0;
+  width: 235px;
+  padding: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #121113;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  transform: translateY(50%);
+  transition: transform .3s ease;
+}
+
+.start-btn:hover{
+  transform: translateY(43%);
 }
 
 
